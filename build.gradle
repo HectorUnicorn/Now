@@ -19,9 +19,9 @@ buildscript {
 
 allprojects {
     repositories {
+        maven { url "https://maven.google.com" }
         jcenter()
         google()
         // 从阿里云下载maven上的第三方库
-        maven { url "http://maven.aliyun.com/nexus/content/groups/public/" }
     }
 }

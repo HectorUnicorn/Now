@@ -9,6 +9,7 @@
     <color name="cyan">#00BCD4</color>
     <color name="lime">#CDDC39</color>
     <color name="transparent">#0000</color>
+    <color name="orange">#fc5c2e</color>
 
     <color name="accent_color">@color/green</color>
     <color name="colorPrimary">@color/green</color>

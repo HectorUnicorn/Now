@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">NowView</string>
+    <string name="app_name">VIP瑜伽</string>
     <string name="app_version">V %1$s</string>
 
     <string name="hello_world">Hello world!</string>
@@ -91,6 +91,7 @@
     <string name="my_github">https://github.com/XunMengWinter</string>
 
     <string name="zcool">Zcool</string>
+    <string name="yujia">瑜伽网</string>
     <string name="ng">NG</string>
     <string name="zhihu">知乎</string>
     <string name="moment">Moment</string>

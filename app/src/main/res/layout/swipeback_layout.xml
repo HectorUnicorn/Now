@@ -15,7 +15,7 @@
   ~ limitations under the License.
   -->
 
-<top.wefor.now.ui.widget.swipeback.SwipeBackLayout
+<com.keepyoga.vipyoga.ui.widget.swipeback.SwipeBackLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/swipe"
     android:layout_width="match_parent"

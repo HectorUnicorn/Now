@@ -36,8 +36,10 @@ android {
     }
     //为了解决部分第三方库重复打包了META-INF的问题
     packagingOptions {
-        exclude 'META-INF/LICENSE.txt'
-        exclude 'META-INF/NOTICE.txt'
+        //处理所有报META-INF/*'的错误
+        pickFirst 'META-INF/*'
+//        exclude 'META-INF/LICENSE.txt'
+//        exclude 'META-INF/NOTICE.txt'
     }
     lintOptions {
         checkReleaseBuilds false
@@ -54,6 +56,7 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+
 }
 
 realm {
@@ -105,6 +108,7 @@ dependencies {
 
     // jsoup HTML parser library @ http://jsoup.org/
     implementation 'org.jsoup:jsoup:1.11.3'
+    implementation 'net.sourceforge.htmlunit:htmlunit:2.25'
 
     // MaterialViewpager
     implementation 'com.github.florent37:materialviewpager:1.2.3'

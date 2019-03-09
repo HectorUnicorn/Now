@@ -28,7 +28,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <top.wefor.smartrestaurant.ui.widget.LoadMoreRecyclerView
+        <com.keepyoga.smartrestaurant.ui.widget.LoadMoreRecyclerView
             android:id="@+id/recyclerView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
